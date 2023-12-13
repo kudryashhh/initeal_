@@ -1,0 +1,363 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+}
+
+@font-face {
+    font-family:'Kharkiv_Tone';
+    src: url(/font/Kharkiv\ Tone\ 04.10.2020.ttf);
+}
+
+
+
+
+.first_screen{
+    position: relative;
+    z-index: 2;
+    margin-top: 2%;
+    margin-left: 3%;
+}
+
+.grid1{
+    position: absolute;
+    width: 66%;
+}
+
+.f1{
+    width: 25%;
+    position: absolute;
+    margin-left: 37%;
+    margin-top: -3%;
+    animation: flower1 2s ease-in infinite;
+}
+
+@keyframes flower1{
+    0%{opacity: 0;}
+    1%{opacity: 0;}
+    50%{opacity: 1;}
+    100%{opacity: 0;}
+
+}
+
+.f2{
+    position: absolute;
+    width: 15%;
+    margin-top: 25%;
+    margin-left: 2%;
+    animation: flower1 2s ease-in infinite;
+}
+
+
+
+.second_screen{
+    position: relative;
+    margin-left: 69%;
+}
+
+.box_cup{
+ position: absolute;
+ width: 88.7%;
+ margin-top: 0.1%;
+}
+
+.cup{
+    width: 70%;
+    position: absolute;
+    margin-top: 85%;
+    margin-left: 10%;
+}
+
+.text_initeal{
+    width: 60.2%;
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+    padding: 0% 2%;
+    margin-bottom: -19%;
+}
+
+.initeal{
+    font-size: 8vw;
+    left: 2%;
+    margin-top: 3%;
+}
+
+.chainaya{
+    position: absolute;
+    font-size: 8vw;
+    width: 100%;
+    margin-top: 13%;
+    margin-left: 27.5%;
+}
+
+.ceremonia{
+    position: absolute;
+    font-size: 8vw;
+    width: 20%;
+    margin-top: 23.5%;
+    margin-left: 2%;
+   
+}
+
+.zvuka{
+    position: absolute;
+    font-size: 8vw;
+    width: 10%;
+    margin-top: 34%;
+    margin-left: 33%;
+}
+
+.initeal1{
+    width: 100%;
+    height: 60%;
+    overflow: hidden;
+}
+
+.text_chainaya{
+    width: 60.2%;
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+}
+
+.third_screen{
+    position: relative;
+    margin-left: 3%;
+    margin-top: 44.5%; 
+    
+   
+    
+
+}
+
+.grid_disk{
+    z-index: 2;
+    position: absolute;
+    width: 46%;
+    overflow: hidden;
+    margin-top: 1.5%;
+}
+
+
+.disk1{
+    position: relative;
+    width: 100%;
+    
+}
+
+.disk{
+    z-index: 2;
+    position: absolute;
+    width: 65%;
+    margin-left: -20%;
+    margin-top: 6%;
+    animation: disk_anim 1.5s linear infinite ;
+}
+
+@keyframes disk_anim{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
+
+.disk:hover{
+    animation-play-state: paused;
+}
+
+.note1{
+    position: absolute;
+    width: 5%;
+    margin-top: 10%;
+    animation: note1 3s linear infinite;
+}
+
+@keyframes note1{
+    0%{margin-top:20%}
+    100%{margin-left: 40%; margin-top:5% ; opacity: 0;}
+}
+.note2{
+    position: absolute;
+    width: 6%;
+    animation: note2 4s linear infinite;
+
+}
+.note3{
+    position: absolute;
+    width: 4%;
+    animation: note3 5s linear infinite;
+}
+@keyframes note2{
+    0%{margin-top:20%}
+    100%{margin-left: 40%; margin-top:-5% ; opacity: 0;}
+}
+@keyframes note3{
+    0%{margin-top:20%}
+    100%{margin-left: 50%; margin-top:16% ; opacity: 0;}
+}
+
+.fourth_screen{
+    position: relative;
+    margin-top: 46%;
+    margin-left: 50%;
+}
+
+.grid_2flo{
+    z-index: 2;
+    position: absolute;
+    width: 91.3%;
+    margin-top: ;
+}
+
+.flo1{
+    z-index: 1;
+    position: absolute;
+    width: 69%;
+    margin-left: 25%;
+    margin-top:1%;
+    animation: flo1_move 4s linear infinite;
+
+    
+}
+
+.flo2{
+    position: absolute;
+    transform: rotate(6%);
+    width: 85%;
+    margin-top: 19%;
+    margin-left: 6%;
+    animation: flo2_move 4.5s linear infinite;
+}
+@keyframes  flo2_move{
+    0%{transform: rotate(0deg);}
+    50%{transform: rotate(20deg);}
+    100%{transform: rotate(0deg);}
+}
+
+@keyframes  flo1_move{
+    0%{transform: rotate(0deg);}
+    50%{transform: rotate(-20deg);}
+    100%{transform: rotate(0deg);}
+}
+
+.fifth_screen{
+    position: relative;
+    margin-top: 91%;
+    margin-left: 3%;
+}
+
+.mnogo_cvetov{
+    position: absolute;
+    width: 95.4%;
+}
+
+.sixth_screen{
+    position: relative;
+}
+
+.kartinki_fon{
+    position: absolute;
+    width: 52%;
+    margin-top: 44.3%;
+    margin-left: 3%;
+}
+
+.seventh_screen{
+    position: relative;
+    
+}
+.poketik_chaya_fon{
+    position: absolute;
+    width: 38.5%;
+    margin-top: 44.3%;
+    margin-left: 57%;
+
+}
+.oval1{
+    z-index: 3;
+    position: absolute;
+    width: 35%;
+    margin-top: 34%;
+    margin-left: 10%;
+}
+
+.priroda{
+    position: absolute;
+    margin-top: 39%;
+    font-size: 3.5vw;
+    z-index: 3;
+    margin-left: 15%;
+    rotate: -15deg;
+}
+
+.eight_screen{
+    position: relative;
+    margin-top: -1.5%;
+}
+
+.struna_1{
+    z-index: 3;
+    position: absolute;
+    margin-top: 108%;
+    margin-left: 3%;
+    width: 92.3%;
+}
+.struna_2{
+    z-index: 3;
+    position: absolute;
+    margin-top: 115%;
+    margin-left: 3%;
+    width: 92.3%;
+}
+.struna_3{
+    z-index: 3;
+    position: absolute;
+    margin-top: 122%;
+    margin-left: 3%;
+    width: 92.3%;
+}
+.struna_4{
+    z-index: 3;
+    position: absolute;
+    margin-top: 129%;
+    margin-left: 3%;
+    width: 92.3%;
+}
+
+.struni_tut{
+    z-index: 2;
+    position: absolute;
+    margin-top: 102.5%;
+    margin-left: 3%;
+    width: 92.5%;
+}
+
+.struni{
+    margin-top: ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
